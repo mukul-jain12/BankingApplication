@@ -7,18 +7,6 @@ public class SavingsAccount {
 	public static double annualInterestRate;
 	public double savingsBalance;
 
-	//constructor
-	public SavingsAccount(double annIntRate, double savingsBalanace) {
-		annualInterestRate = annIntRate;
-		savingsBalance = savingsBalanace;
-	}
-	
-	//
-	public SavingsAccount() {
-		annualInterestRate = 0;
-		savingsBalance = 0;
-	}
-
 	//setter method
 	public void setSavingsBalance(double newBalance) {
 		savingsBalance = newBalance;
