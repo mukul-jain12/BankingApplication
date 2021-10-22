@@ -2,9 +2,12 @@ package com.bankingapp;
 
 //SavingAccount class
 public class SavingsAccount {
+	
+	//static variables
 	public static double annualInterestRate;
-	private double savingsBalance;
+	public double savingsBalance;
 
+	//constructor
 	public SavingsAccount(double annIntRate, double savingsBalanace) {
 		annualInterestRate = annIntRate;
 		savingsBalance = savingsBalanace;
